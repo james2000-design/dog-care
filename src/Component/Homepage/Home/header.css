@@ -1,0 +1,39 @@
+
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.get{
+    text-align: center;
+    background-color: #F3DED7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media (max-width:600px) {
+    .content{
+        justify-content: center;
+    }
+}

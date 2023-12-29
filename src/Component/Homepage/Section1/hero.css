@@ -1,0 +1,32 @@
+.content1{
+    background-color: #f4ccc7;
+    padding-top: 1rem;
+}
+
+.text-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    padding: 10px;
+    background-color: rgb(227, 140, 140);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+.amok{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pic{
+    width: 50%;
+}
+@media (max-width:500px) {
+    .pic{
+        width: 80%;
+    }
+}
+

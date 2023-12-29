@@ -1,0 +1,45 @@
+
+.carrier{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.cast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mere{
+    width: 25%;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.cast-img{
+    width: 100%;
+    border: 4px solid rgb(226, 170, 179);
+}
+.prices{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ons{
+    padding:10px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: pink;
+    margin-bottom: 4rem;
+}
+
+@media (max-width:600px) {
+    .mere{
+        width: 60%;
+    }
+}

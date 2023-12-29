@@ -1,0 +1,40 @@
+.Trend-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.trend{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+.doggy{
+    font-size: 30px;
+}
+
+.Ann-image{
+    width: 300px;
+    border:10px solid rgb(247, 208, 216);
+}
+.note{
+    width: 40%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.crest{
+    padding: 10px;
+    background-color: rgba(237, 164, 176, 0.959);
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+@media (max-width:767px) {
+    .note{
+        width: 80%;
+    }
+}
